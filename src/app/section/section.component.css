@@ -1,0 +1,22 @@
+.section {
+  border-right: 4px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  /* border-radius: 5px; */
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #070607;
+  /* transform: scale(1.03);    Slightly increase the size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
